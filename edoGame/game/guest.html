@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="context">
+        <h1>EdoJump</h1>
+    </div>
+
+
+<div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+</div>
+
+    <div class="game">
+        <div id="character"></div>
+        <div id="block"></div>
+    </div>
+    <p id="ScoreP">Punteggio: <span id="scoreSpan"></span></p>
+    <p id="PmaxScore">Punteggio massimo: <span id="MaxScore"></span></p>
+
+
+    <a id="registerBtn" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Registrati/Accedi
+    </a>
+
+    <button onclick="ReturnHome()" class="btn btn1">Homepage</button>
+
+    <div id="gameAlert"> </div>
+
+
+    <button id="StartBtn" onclick="gameStatus()">Start</button>
+
+
+</body>
+<script src="script.js"></script>
+</html>
